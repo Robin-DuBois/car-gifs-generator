@@ -1,0 +1,89 @@
+body {
+    background: url(http://longwallpapers.com/subaru-logo-wallpapers-high-quality-resolution/);
+}
+
+.navbar-light {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.navbar-brand,
+.nav-link {
+    font-weight: 900;
+}
+
+button,
+.img-container > img,
+input {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card-body {
+    min-height: 350px;
+}
+
+#buttons-area {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#buttons-area > button {
+    margin-bottom: 1em;
+}
+
+.img-container {
+    margin: 10px;
+}
+
+img {
+    width: 480px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+a.btn {
+    color: white;
+}
+
+.fas {
+    color: white;
+}
+
+.alert {
+    display: none;
+}
+
+.faved:hover {
+    cursor: not-allowed;
+}
+
+.faves {
+    display: none;
+}
+
+.faves > h1 {
+    font-weight: lighter;
+    text-align: center;
+    margin: 1rem;
+}
+
+.faves > h2 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.btn-block {
+    margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+    #buttons-area {
+        flex-direction: column;
+    }
+
+    img {
+        width: 300px;
+    }
+}
